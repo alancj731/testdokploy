@@ -1,0 +1,18 @@
+{
+  "name": "testdokdeploy",
+  "version": "1.0.0",
+  "description": "Simple Express server deployed via Dokploy on GCP",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}
